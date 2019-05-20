@@ -1,0 +1,30 @@
+<html>
+<body background-color=Green>
+<div style="position: relative; left: 0; top: 0;">
+  <img src=""style="position: relative; top: 0; left: 0;"/>
+ </div>
+<div style="width:988px;height:308px;"><p>Hi ${REQUESTOR} ,</p>
+<p >Your request has been approved by the team,<br> 
+	below is the output of your request.<br><br>
+</p>
+Transaction Number:<b>${txnNumber}</b><br>
+Approved by:<b>${userName}</b><br>
+Action Executed:<b>${ACTION_ID}</b><br>
+Ran on server:<b>${SERVER}</b><br>
+Parameter:<b>${PARAM1}</b><br>
+
+<br>
+
+Output:<a href="${output_link}" target="_blank">Output Link</a>
+ <br>
+<br>
+
+
+If you like this tool follow us on Linkedin <a href="" target="_blank">Like</a>
+
+<p>Regards,
+<br>Operations Automation Tool<br><br>
+</p>
+</div>
+</body>
+</html>

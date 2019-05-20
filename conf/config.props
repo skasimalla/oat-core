@@ -1,0 +1,27 @@
+#URL where this app is saved
+baseLink=http://localhost:8090/
+#Output files link for the email
+output_folder=http://localhost:8090/serve/
+
+#Options for below home or absolute
+baseLocation=absolute
+
+#If the above is home, this will get appended to system.home, else this will be used as absolute path
+share_location=serve/
+
+#Accept and reject URLs
+accept_url=OperationApproval
+reject_url=OperationReject
+
+#Emails
+from_DL=opsauto3@gmail.com
+bcc_DL=opsauto3@gmail.com
+
+#Don't delete the below, this can be used when org wide email is used
+emailPostFix=
+
+#JDBC connection
+jdbc_connection_string=jdbc:h2:tcp://localhost:9092/./db/oat;IFEXISTS=TRUE;USER=oat;PASSWORD=XXXXX
+
+#Key
+key=

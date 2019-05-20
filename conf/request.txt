@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+<body background-color=Green> 
+<div style="position: relative; left: 0; top: 0;"> 
+  <img src="" style="position: relative; top: 0; left: 0;"/> 
+ </div> 
+<div style="width:988px;height:308px;"><p>Hi ${team} ,</p> 
+<p >The below request has been submitted to your team,<br> 
+    please click on accept or deny based on whether you want that command to be executed or not.<br><br> 
+    You are responsible if you click "Accept" for unwanted requests,<br>the requestor will receive a mail with the output of the command. 
+</p> 
+<br> 
+
+<b>Transaction Number:</b>${txnNumber}<br> 
+<b>Requesting User:</b>${requestor}<br> 
+<b>To be run on server:</b>${server}<br> 
+<b>Requested Operation:</b>${action}<br> 
+<b>Requested Parameter:</b>${param}<br> 
+
+<br> 
+<a href="${accept_link}" target="_blank">Accept</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="${reject_link}" target="_blank">Deny</a> 
+<br> 
+<p>Regards,
+<br>Operations Automation Tool<br><br> 
+</p> 
+</div> 
+</body> 
+</html>

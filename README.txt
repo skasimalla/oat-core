@@ -1,0 +1,4 @@
+Create dirs
+
+static
+serve
